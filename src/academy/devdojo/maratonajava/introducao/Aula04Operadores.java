@@ -5,7 +5,7 @@ public class Aula04Operadores {
         // + - * /
         int numero01 = 10;
         int numero02 = 20;
-        double resultado = numero01 / (double)numero02;
+        double resultado = numero01 / (double) numero02;
         System.out.println(resultado);
 
         // %
@@ -27,11 +27,18 @@ public class Aula04Operadores {
         System.out.println("isDezDiferenteVinte " + isDezDiferenteVinte);
 
         // && (AND) || (OR) ! (NOT)
-        int idade = 20;
+        int idade = 29;
         float salario = 3500f;
-        boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4612;
+        boolean isDentroDaLeiMaiorQueTrinta = idade >= 30 && salario >= 4612;
         boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
 
+        System.out.println("isDentroDaLeiMaiorQueTrinta " + isDentroDaLeiMaiorQueTrinta);
+        System.out.println("isDentroDaLeiMenorQueTrinta " + isDentroDaLeiMenorQueTrinta);
 
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation = 5000f;
+        boolean isPlaystatinoCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+        System.out.println("isPlaystatinoCincoCompravel " + isPlaystatinoCincoCompravel);
     }
 }
