@@ -5,17 +5,18 @@ public class Aula05EstruturasCondicionais04 {
     //€ 34,713  € 68,507    37.35%
     //€ 68,508              49.50%
     public static void main(String[] args) {
-        double salarioAnual = 69000;
+        double salarioAnual = 70000;
         double primeiraFaixa = 9.7 / 100;
-        double SegundaFaixa = 37.35 / 100;
-        double TerceiraFaixa = 49.50 / 100;
+        double segundaFaixa = 37.35 / 100;
+        double terceiraFaixa = 49.50 / 100;
         double valorImposto;
         if (salarioAnual <= 34712) {
-            System.out.println("Com um salário anul de €" + salarioAnual + " você deve pagar 9.70% de imposto.");
-        } else if (salarioAnual <= 68507) {
-            System.out.println("Com um salário anul de €" + salarioAnual + " você deve pagar 37.35% de imposto.");
+            valorImposto = salarioAnual * primeiraFaixa;
+        } else if (salarioAnual >= 34713 && salarioAnual <= 68507) {
+            valorImposto = salarioAnual * segundaFaixa;
         } else {
-            System.out.println("Com um salário anul de €" + salarioAnual + " você deve pagar 49.50% de imposto.");
+            valorImposto = salarioAnual * terceiraFaixa;
         }
+        System.out.println(valorImposto);
     }
 }
