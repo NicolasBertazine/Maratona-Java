@@ -12,7 +12,7 @@ public class Aula02TiposPrimitivos {
         boolean verdadeiro = true;
         boolean falso = false;
         char caractere = '\u0041';
-        String nome = "Nícolas";
+        String nome = "Goku";
         var nome2 = "Vegeta";
 
         System.out.println("A idade é " + idade);

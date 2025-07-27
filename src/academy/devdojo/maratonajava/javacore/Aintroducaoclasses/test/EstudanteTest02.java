@@ -7,7 +7,7 @@ public class EstudanteTest02 {
         Estudante estudante = new Estudante();
         Estudante estudante2 = new Estudante();
 
-        estudante.nome = "Nícolas";
+        estudante.nome = "Boruto";
         System.out.println(estudante.idade);
         System.out.println(estudante.sexo);
         System.out.println(estudante.nome);

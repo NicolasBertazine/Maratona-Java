@@ -5,7 +5,7 @@ import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.dominio.Estudant
 public class EstudanteTest01 {
     public static void main(String[] args) {
         Estudante estudante = new Estudante();
-        estudante.nome = "Nícolas";
+        estudante.nome = "Sasuke";
         estudante.idade = 20;
         estudante.sexo = 'M';
 

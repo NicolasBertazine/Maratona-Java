@@ -5,7 +5,7 @@ import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.dominio.Professo
 public class ProfessorTest01 {
     public static void main(String[] args) {
         Professor professor = new Professor();
-        professor.nome = "Osvaldo";
+        professor.nome = "Kakashi";
         professor.idade = 40;
         professor.sexo = 'M';
 
