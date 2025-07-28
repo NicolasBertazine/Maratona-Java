@@ -11,13 +11,17 @@ public class Funcionario {
         System.out.println("----------------");
         System.out.println("Nome: " + this.nome);
         System.out.println("Idade: " + this.idade);
+
         if (salarios == null) {
             return;
         }
+
         System.out.println("Salarios: ");
+
         for (double salario : salarios) {
             System.out.println(salario + " ");
         }
+
         tirarMediaDosSalarios();
     }
 
