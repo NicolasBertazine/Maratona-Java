@@ -7,6 +7,5 @@ public class DateTest01 {
         Date date = new Date(1755262464001L);// long 100000
         date.setTime(date.getTime() + 3_600_000);
         System.out.println(date);
-
     }
 }
