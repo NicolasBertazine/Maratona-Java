@@ -1,9 +1,9 @@
-package academy.devdojo.maratonajava.javacore.Rdatas.test;
+package academy.devdojo.maratonajava.javacore.Sformatacao.test;
 
 import java.text.DateFormat;
 import java.util.Calendar;
 
-public class DateformatTest01 {
+public class DateFormatTest01 {
     public static void main(String[] args) {
         Calendar calendar = Calendar.getInstance();
         DateFormat[] df = new DateFormat[7];
