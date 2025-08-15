@@ -7,7 +7,7 @@ public class StringBuilderTest01 {
         nome.substring(0,3);
         System.out.println(nome);
 
-        StringBuilder sb = new StringBuilder("Nícolas Bertazine");
+        StringBuffer sb = new StringBuffer("Nícolas Bertazine");
         sb.append(" Bertazine").append(" Academy");
         sb.reverse();
         sb.reverse();
